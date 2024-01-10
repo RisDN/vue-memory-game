@@ -33,7 +33,8 @@ async function clickHandler(cellId) {
 	}
 
 	if(cells.value[guesses] != cellId) {
-		alert("Vesztettél! Elért pontszám:" + cells.value.length)
+		document.querySelector(`#cell-${cellId}`).style.backgroundColor = "red";
+		alert("Vesztettél! Elért pontszám:" + cells.value.length);
 		return;
 	}
 
