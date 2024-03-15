@@ -72,9 +72,9 @@ function getRandomCellId() {
 <div class="grid">
 
 	<div class="row">
-    	<div v-on:click="clickHandler(1)" id="cell-1" class="cell"></div>
+    		<div v-on:click="clickHandler(1)" id="cell-1" class="cell"></div>
 		<div v-on:click="clickHandler(2)" id="cell-2" class="cell"></div>
-    	<div v-on:click="clickHandler(3)" id="cell-3" class="cell"></div>
+    		<div v-on:click="clickHandler(3)" id="cell-3" class="cell"></div>
 	</div>
 	<div class="row">
 		<div v-on:click="clickHandler(4)" id="cell-4" class="cell"></div>
